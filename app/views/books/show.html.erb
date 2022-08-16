@@ -1,0 +1,17 @@
+<% if flash[:notice] %>
+  <p><%= flash[:notice] %></p>
+<% end %>
+
+<h2>
+ <strong>Title:</strong>
+ <%= @book.title %>
+</h2>
+
+ <h2>
+  <strong>Body:</strong>
+ <%= @book.body %>
+ </h2>
+
+  <br><%= link_to 'Edit', edit_book_path(@book.id) %>
+  |
+  <%= link_to 'Back', '/books' %></br>

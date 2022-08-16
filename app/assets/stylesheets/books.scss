@@ -1,0 +1,88 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+html {
+  dasplay: block;
+}
+
+body {
+  background-coler: #fff;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: bold;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+h3 {
+  desplay: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.tosyo {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+}
+
+.field {
+ margin-bottom: 10px;
+}
+
+p {
+  color: green;
+}
+
+ul {
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+.underline {
+  position: relative;
+  padding: 0.3em;
+}
+
+.underline:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background: repeating-linear-gradient(-45deg, #ff6633, #ff6633 2px, white 2px, white 4px);
+}
